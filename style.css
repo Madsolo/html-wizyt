@@ -1,0 +1,27 @@
+body {
+      text-align: center;
+      background: url(tlo.jpg) no-repeat black;
+      background-size: auto;
+      font-family: helvetica;
+      background-position: center;
+      padding: 100px;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 100px;
+      -webkit-border-radius: 100px; <!-- difrend browser -->
+      -moz-border-radius: 100px;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
